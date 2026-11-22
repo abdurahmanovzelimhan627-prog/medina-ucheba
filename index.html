@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Учёба в мусульманских странах — Медина, Мекка, Эмираты, Турция</title>
+<meta name="description" content="Поступление в бесплатные университеты Саудии, Эмиратов и Турции с 2015 года. Документы, условия, ссылки на подробные материалы.">
+<meta property="og:title" content="Учёба в Медине, Мекке, Эмиратах и Турции">
+<meta property="og:description" content="Бесплатные университеты в мусульманских странах. Помогаем поступить с 2015 года.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0f2a24">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f2a24'/%3E%3Cpath d='M40 14a18 18 0 1 0 0 36 14 14 0 1 1 0-36z' fill='%23d9b26a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"EducationalOrganization","name":"Учёба в Медине — помощь с поступлением","description":"Помощь с поступлением в бесплатные университеты Саудовской Аравии, ОАЭ и Турции с 2015 года.","foundingDate":"2015","sameAs":["https://t.me/MedinaUroki"]}
+</script>
+<style>
+/* Шрифты: Alegreya (заголовки) + PT Sans (текст) — тёплый «обучающий» характер, кириллица. */
+:root{
+  --bg:#0f2a24;          /* глубокий изумруд */
+  --bg-2:#163a32;
+  --surface:#fbf7ef;     /* слоновая кость */
+  --surface-2:#f3ecdf;
+  --ink:#1b2622;
+  --muted:#55615c;
+  --gold:#d9b26a;
+  --gold-ink:#8a6418;    /* золото для текста на светлом — контраст AA */
+  --line:#e4dccb;
+  --on-dark:#f6f1e6;
+  --on-dark-muted:#b9c8c1;
+  --radius:20px;
+  --radius-sm:12px;
+  --shadow:0 10px 30px -12px rgba(8,24,20,.35);
+  --pad:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:"PT Sans",system-ui,sans-serif;font-size:16px;line-height:1.6;color:var(--ink);
+  background:var(--bg);
+  background-image:radial-gradient(1200px 600px at 50% -200px,#1f4c41 0%,transparent 60%);
+  min-height:100vh;
+}
+h1,h2,h3{font-family:"Alegreya",Georgia,serif;line-height:1.15;font-weight:700}
+a{color:inherit}
+.app{max-width:520px;margin:0 auto;padding:0 var(--pad) 120px}
+
+/* ===== Шапка ===== */
+.hero{color:var(--on-dark);padding:36px 4px 28px;text-align:left;position:relative}
+.salam{font-family:"Alegreya",serif;color:var(--gold);font-size:15px;letter-spacing:.02em;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.salam svg{flex:none}
+.hero h1{font-size:34px;font-weight:800;margin-bottom:12px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{color:var(--on-dark-muted);font-size:16px;max-width:42ch}
+.stats{display:flex;gap:10px;margin-top:22px}
+.stat{flex:1;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius-sm);padding:12px 10px}
+.stat b{display:block;font-family:"Alegreya",serif;font-size:22px;color:var(--on-dark)}
+.stat span{font-size:13px;color:var(--on-dark-muted);line-height:1.3;display:block}
+
+/* ===== Вкладки ===== */
+.tabs{position:sticky;top:0;z-index:5;display:flex;gap:6px;padding:10px 0;background:var(--bg);margin:0 calc(var(--pad)*-1);padding-left:var(--pad);padding-right:var(--pad);overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;border:1px solid rgba(255,255,255,.14);background:transparent;color:var(--on-dark-muted);font:700 14px "PT Sans",sans-serif;padding:10px 16px;border-radius:999px;cursor:pointer;transition:.2s}
+.tab[aria-selected="true"]{background:var(--gold);border-color:var(--gold);color:#1f1606}
+.tab:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+.panel{display:none;animation:in .35s ease}
+.panel.active{display:block}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+.sect-title{color:var(--on-dark);font-size:24px;margin:22px 4px 6px}
+.sect-sub{color:var(--on-dark-muted);font-size:15px;margin:0 4px 16px}
+
+/* ===== Карточки-ссылки ===== */
+.card{display:block;text-decoration:none;background:var(--surface);border-radius:var(--radius);padding:18px;margin-bottom:12px;box-shadow:var(--shadow);transition:transform .2s}
+.card:active{transform:scale(.985)}
+@media (hover:hover){.card:hover{transform:translateY(-2px)}}
+.card-top{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.flag{width:48px;height:48px;flex:none;border-radius:14px;background:var(--surface-2);display:grid;place-items:center;font-size:26px}
+.card h3{font-size:20px;color:var(--ink)}
+.tag{display:inline-block;font-size:12px;font-weight:700;color:var(--gold-ink);background:#f6ead0;border-radius:999px;padding:2px 10px;margin-top:3px}
+.card p{color:var(--muted);font-size:15px}
+.card-cta{display:flex;align-items:center;justify-content:space-between;margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-weight:700;font-size:15px;color:var(--bg)}
+.card-cta svg{transition:transform .2s}
+.card:hover .card-cta svg{transform:translateX(3px)}
+.card.featured{background:linear-gradient(160deg,#fffaf0,#f4e6c6)}
+
+/* ===== Документы ===== */
+.doc-box{background:var(--surface);border-radius:var(--radius);padding:8px 18px;box-shadow:var(--shadow)}
+.doc{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.doc:last-child{border-bottom:0}
+.doc input{appearance:none;width:26px;height:26px;flex:none;border:2px solid #b9ad94;border-radius:8px;margin-top:2px;display:grid;place-items:center;cursor:pointer;transition:.15s}
+.doc input:checked{background:var(--bg);border-color:var(--bg)}
+.doc input:checked::after{content:"";width:7px;height:13px;border:solid var(--gold);border-width:0 3px 3px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.doc input:focus-visible{outline:2px solid var(--gold-ink);outline-offset:2px}
+.doc b{display:block;font-size:17px}
+.doc small{display:block;color:var(--muted);font-size:14px;line-height:1.45;margin-top:2px}
+.doc.done b{text-decoration:line-through;text-decoration-color:var(--gold-ink)}
+.progress{display:flex;align-items:center;gap:12px;color:var(--on-dark-muted);font-size:14px;margin:14px 4px 0}
+.bar{flex:1;height:6px;background:rgba(255,255,255,.12);border-radius:9px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--gold);transition:width .3s}
+
+.price{margin-top:14px;background:var(--bg-2);border:1px solid rgba(217,178,106,.35);border-radius:var(--radius);padding:18px;color:var(--on-dark)}
+.price .sum{font-family:"Alegreya",serif;font-size:32px;font-weight:800;color:var(--gold)}
+.price p{color:var(--on-dark-muted);font-size:15px;margin-top:6px}
+.price ul{list-style:none;margin-top:12px;display:grid;gap:8px}
+.price li{display:flex;gap:10px;font-size:15px}
+.price li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--gold);margin-top:9px;flex:none}
+
+/* ===== FAQ ===== */
+details{background:var(--surface);border-radius:var(--radius-sm);margin-bottom:10px;box-shadow:var(--shadow)}
+summary{list-style:none;cursor:pointer;padding:16px 48px 16px 18px;font-weight:700;font-size:16px;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:24px;color:var(--gold-ink);transition:.2s}
+details[open] summary::after{content:"−"}
+details p{padding:0 18px 16px;color:var(--muted);font-size:15px}
+details a{color:var(--gold-ink);font-weight:700}
+
+/* ===== Нижняя кнопка ===== */
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:10;padding:12px var(--pad) calc(12px + env(safe-area-inset-bottom));background:linear-gradient(transparent,rgba(15,42,36,.92) 35%)}
+.dock a{max-width:488px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:10px;background:var(--gold);color:#1f1606;text-decoration:none;font-weight:700;font-size:16px;padding:15px;border-radius:16px;box-shadow:0 10px 30px -8px rgba(217,178,106,.5)}
+
+.note{color:var(--on-dark-muted);font-size:13px;text-align:center;margin:28px 8px 0;line-height:1.5}
+@media (min-width:700px){.hero h1{font-size:40px}.app{padding-top:24px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main class="app">
+
+  <header class="hero">
+    <div class="salam">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3a9 9 0 1 0 6 15.7A7.5 7.5 0 1 1 15 3z" fill="currentColor"/></svg>
+      Ас-саляму алейкум ва рахматуЛлахи ва баракатух
+    </div>
+    <h1>Бесплатная учёба в <em>Медине, Мекке</em>, Эмиратах и Турции</h1>
+    <p>Помогаем поступить в университеты мусульманских стран — на исламские и светские факультеты: медицина, инженерия, IT.</p>
+    <div class="stats">
+      <div class="stat"><b>с 2015</b><span>помогаем поступать</span></div>
+      <div class="stat"><b>27+</b><span>университетов Саудии</span></div>
+      <div class="stat"><b>4</b><span>страны на выбор</span></div>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Разделы">
+    <button class="tab" role="tab" aria-selected="true" data-tab="study">🎓 Учёба</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="docs">📄 Документы</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="work">💻 Работа из дома</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="faq">❓ Вопросы</button>
+  </nav>
+
+  <!-- ===== Учёба ===== -->
+  <section class="panel active" id="study" role="tabpanel">
+    <h2 class="sect-title">Куда поступить</h2>
+    <p class="sect-sub">Выберите направление — по ссылке подробный фильм и текст: условия жизни, обучение, перелёты.</p>
+
+    <a class="card featured" href="https://t.me/MedinaUroki/5207" target="_blank" rel="noopener">
+      <div class="card-top"><div class="flag">🕋</div><div><h3>Медина, Мекка и ещё 25 университетов</h3><span class="tag">🇸🇦 Саудовская Аравия · бесплатно</span></div></div>
+      <p>Поступление в Исламский университет Медины, Умм аль-Кура в Мекке и другие бесплатные вузы Саудии.</p>
+      <div class="card-cta">Подробнее в Telegram <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+    </a>
+
+    <a class="card" href="https://t.me/MedinaUroki/5203" target="_blank" rel="noopener">
+      <div class="card-top"><div class="flag">🇸🇦</div><div><h3>Курсы арабского в Саудии</h3><span class="tag">Без ограничения по возрасту</span></div></div>
+      <p>Учёба в Саудовской Аравии на курсах арабского языка — подходит и взрослым.</p>
+      <div class="card-cta">Подробнее в Telegram <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+    </a>
+
+    <a class="card" href="https://t.me/MedinaUroki/4943" target="_blank" rel="noopener">
+      <div class="card-top"><div class="flag">🇦🇪</div><div><h3>Эмираты</h3><span class="tag">Университет «Аль-Касимия»</span></div></div>
+      <p>Поступление в университет аль-Касимия в Шардже (ОАЭ).</p>
+      <div class="card-cta">Подробнее в Telegram <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+    </a>
+
+    <a class="card" href="https://t.me/MedinaUroki/4936" target="_blank" rel="noopener">
+      <div class="card-top"><div class="flag">🇹🇷</div><div><h3>Турция</h3><span class="tag">Стипендия «Türkiye Bursları»</span></div></div>
+      <p>Государственная стипендия Турции «Туркие Бурслары» — поступление и документы.</p>
+      <div class="card-cta">Подробнее в Telegram <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+    </a>
+  </section>
+
+  <!-- ===== Документы ===== -->
+  <section class="panel" id="docs" role="tabpanel">
+    <h2 class="sect-title">Документы для поступления</h2>
+    <p class="sect-sub">Отправьте фото этих документов. Отмечайте галочкой, что уже готово.</p>
+
+    <div class="doc-box" id="doclist">
+      <label class="doc"><input type="checkbox" data-id="passport"><span><b>🛂 Загранпаспорт</b><small>Чёткое фото разворота с фотографией.</small></span></label>
+      <label class="doc"><input type="checkbox" data-id="photo"><span><b>🤳 Ваша фотография</b><small>На обычный телефон, на белом фоне — например, у белой стены.</small></span></label>
+      <label class="doc"><input type="checkbox" data-id="diploma"><span><b>📁 Аттестат или диплом</b><small>Аттестат за 11 класс, диплом колледжа или университета. Если их нет — аттестат за 9 класс.</small></span></label>
+      <label class="doc"><input type="checkbox" data-id="birth"><span><b>🪪 Свидетельство о рождении</b><small>Фото оригинала.</small></span></label>
+    </div>
+    <div class="progress"><div class="bar"><i id="bar"></i></div><span id="count">0 из 4</span></div>
+
+    <div class="price">
+      <div class="sum">6 500 ₽</div>
+      <p>Перевод всех документов и отправка в приёмные комиссии.</p>
+      <ul>
+        <li>Перевод на арабский или турецкий язык</li>
+        <li>Отправка документов в приёмные комиссии</li>
+        <li>Деньги идут студентам-переводчикам и видеомонтажёрам, которые рассказывают мусульманам об этой возможности</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Работа ===== -->
+  <section class="panel" id="work" role="tabpanel">
+    <h2 class="sect-title">Работа в интернете из дома</h2>
+    <p class="sect-sub">Отдельное направление — заработок онлайн.</p>
+    <a class="card featured" href="https://t.me/MedinaUroki/5317" target="_blank" rel="noopener">
+      <div class="card-top"><div class="flag">💻</div><div><h3>Работа из дома</h3><span class="tag">Онлайн-заработок</span></div></div>
+      <p>Как начать работать в интернете, не выходя из дома. Всё подробно — в посте.</p>
+      <div class="card-cta">Подробнее в Telegram <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+    </a>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="panel" id="faq" role="tabpanel">
+    <h2 class="sect-title">Частые вопросы</h2>
+    <p class="sect-sub">Коротко о главном.</p>
+    <details><summary>Учёба правда бесплатная?</summary><p>Да, речь о бесплатных университетах в мусульманских странах. Платно только перевод документов и их отправка — 6 500 ₽.</p></details>
+    <details><summary>Какие факультеты есть?</summary><p>Исламские факультеты и светские: медицина, инженерия, IT.</p></details>
+    <details><summary>Есть ли ограничение по возрасту?</summary><p>На курсы арабского в Саудии — без ограничения по возрасту. По университетам условия смотрите <a href="https://t.me/MedinaUroki/5207" target="_blank" rel="noopener">в посте про Саудию</a>.</p></details>
+    <details><summary>Что если нет аттестата за 11 класс?</summary><p>Подойдёт диплом колледжа или университета. Если нет и его — аттестат за 9 класс.</p></details>
+    <details><summary>Где узнать про жильё, обучение и перелёты?</summary><p>Снят целый фильм и написан подробный текст — откройте ссылку нужной страны во вкладке «Учёба».</p></details>
+    <details><summary>Почему мне не ответили сразу?</summary><p>В день пишут около 500 человек — ответить всем сразу невозможно. Поэтому вся информация собрана в фильме и постах канала.</p></details>
+  </section>
+
+  <p class="note">Все материалы — в Telegram-канале @MedinaUroki</p>
+</main>
+
+<div class="dock"><a href="https://t.me/MedinaUroki" target="_blank" rel="noopener">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.7.8l-4.8-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2L6.5 13.2 1.8 11.7c-1-.3-1-1 .2-1.5L20.6 3c.9-.3 1.6.2 1.3 1.3z"/></svg>
+  Открыть канал в Telegram</a></div>
+
+<script>
+// Вкладки
+const tabs=document.querySelectorAll('.tab');
+function openTab(id){
+  tabs.forEach(t=>t.setAttribute('aria-selected',t.dataset.tab===id));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id===id));
+  try{localStorage.setItem('tab',id)}catch(e){}
+}
+tabs.forEach(t=>t.addEventListener('click',()=>{openTab(t.dataset.tab);t.scrollIntoView({inline:'center',block:'nearest',behavior:'smooth'})}));
+try{const s=localStorage.getItem('tab');if(s&&document.getElementById(s))openTab(s)}catch(e){}
+
+// Чек-лист документов
+const boxes=document.querySelectorAll('#doclist input');
+let saved={};try{saved=JSON.parse(localStorage.getItem('docs')||'{}')}catch(e){}
+function upd(){
+  let n=0;boxes.forEach(b=>{b.closest('.doc').classList.toggle('done',b.checked);if(b.checked)n++});
+  document.getElementById('bar').style.width=(n/boxes.length*100)+'%';
+  document.getElementById('count').textContent=n+' из '+boxes.length;
+}
+boxes.forEach(b=>{b.checked=!!saved[b.dataset.id];b.addEventListener('change',()=>{saved[b.dataset.id]=b.checked;try{localStorage.setItem('docs',JSON.stringify(saved))}catch(e){}upd()})});
+upd();
+</script>
+</body>
+</html>
